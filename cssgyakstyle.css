@@ -1,0 +1,79 @@
+body{
+	background-color:lightblue;
+	margin: 0px;
+}
+
+.header{
+	background-image: url("kepek/hatter1.webp");
+	height:450px;
+	/* background-repeat:no-repeat; */ /*(no-)repeat - (nem) ismétli a képet*/
+	background-size: contain; /*szélességét*/
+	/* background-size: cover; */ /*maggasságát*/
+}
+.header p{
+	margin: 0px;
+	text-align:center;
+	font-size: 40px;
+	color: beige;
+	text-shadow: 3px 3px 5px black;
+	letter-spacing: 5px;
+	padding-top: 100px;
+	
+}
+
+
+.masodik_blokk{
+	height:450px;
+}
+
+
+.feher-hatteres{
+	background-color:lightgray;
+	width: 50%;
+	float: left;
+	height: 100%;
+	text-align: center;
+
+}
+.szoveg-kep{
+	background-color:white;
+	width: 50%;
+	float: right;
+	height: 100%;
+	
+}
+
+.feher-hatteres img{
+	/*width: 30%;	*/
+	height: 70%;
+	position: relative;
+	top: 15%; 
+}
+
+.szoveg-kep-belso{
+	/* .szoveg-kep-belso */
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	position:relative;
+	top: 10%;
+	padding: 10px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+/*color: rgb() / rgba(); */
+/* color: #ff0000; */
+/* color: beige; */ 
+
+.szoveg-kep-belso img{
+	height: 50%;
+}
+
+.szoveg-kep-belso p{
+	text-align: left;
+}
+
+h2{
+	margin-top:0;
+}
