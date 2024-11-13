@@ -1,0 +1,15 @@
+body {
+
+}
+.container {
+    background-color: lightblue;
+    padding: 3px;
+}
+
+.row {
+    border: 1px solid red;
+}
+
+.col {
+    border: 1px dotted blue;
+}
