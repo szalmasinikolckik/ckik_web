@@ -1,0 +1,53 @@
+h1{
+  text-align: center;
+  text-shadow: 1px 1px 3px beige, -1px -1px 3px lightcoral;
+}
+form{
+  width: 50%;
+  margin: auto;
+  font-size: 16px;
+  background-color: rgba(240, 128, 128, 60%);
+  /* border: 2px solid black; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: -5px -5px 8px black ;
+}
+
+/* #formstyle {
+  background-color: aliceblue;
+} */
+
+
+
+legend{
+  font-weight: bold;
+}
+body{
+  background-image: url("pompomosdfjka.jpg");
+}
+fieldset{
+  border: 2px  solid black;
+  border-radius: 15px;
+  box-shadow: ;
+}
+
+.textareaDiv{
+  width: 60%;
+  margin: auto;
+}
+
+textarea{
+  width: 100%;
+}
+
+#csuszka{
+  width: 100%;
+}
+fieldset img {
+  width: 30%;
+}
+
+#imgFieldset {
+  display: flex;
+  justify-content: space-between;
+}
